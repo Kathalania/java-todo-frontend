@@ -2,16 +2,20 @@ package com.example.backend;
 
 public enum ToDoStatus {
 
-    OPEN("OPEN");
+    OPEN,
 
-    private String statusNote;
+    IN_PROGRESS,
 
-
-    private ToDoStatus(String statusNote) {
-        this.statusNote = statusNote;
-    }
-
-    public String getStatus() {
-        return statusNote;
-    }
+    DONE
+//
+//    private String status;
+//
+//
+//    private ToDoStatus(String status) {
+//        this.status = status;
+//    }
+//
+//    public String getStatus() {
+//        return status;
+//    }
 }
